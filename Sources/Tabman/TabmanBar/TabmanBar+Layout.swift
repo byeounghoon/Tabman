@@ -24,7 +24,7 @@ internal extension TabmanBar {
         let xConstraints = NSLayoutConstraint.constraints(withVisualFormat: "H:|-0-[view]-0-|",
                                                           options: NSLayoutFormatOptions(),
                                                           metrics: nil, views: views)
-        let yConstraints = NSLayoutConstraint.constraints(withVisualFormat: String(format: "V:[topLayoutGuide]-%i-[view]", -margins.top),
+        let yConstraints = NSLayoutConstraint.constraints(withVisualFormat: String(format: "V:[topLayoutGuide]-%i-[view]", 50),
                                                           options: NSLayoutFormatOptions(),
                                                           metrics: nil, views: views)
         constraints.append(contentsOf: xConstraints)
